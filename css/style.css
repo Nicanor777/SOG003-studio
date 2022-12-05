@@ -161,78 +161,8 @@ button{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
 }
 
-@media only screen and (max-width: 755px){
-  #work1,#work2,#work3,#work4,#work5,#work6,#work6,#work7,#work8{
-    width: 100%;
-    height: 100%;
-    top: 20px;
-    left: 16px;
-    padding-top: 20%;
-    /* font-size: 16px; */
-  }
-  .col-md-3 img{
-    width:100%px;
-    margin: 20px;
-  }
-  #portfolio{
-    margin-left:8%;
-    margin-right: 16%; 
-  }
-  button{
-    margin-left: 2%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-    /* margin-left: 10px; */
-
-    /* margin-right: -20%; */
-  }
-}
-
-@media only screen and (max-width: 425px){
-  #work1,#work2,#work3,#work4,#work5,#work6,#work6,#work7,#work8{
-    width: 100%;
-    height: 100%;
-    top: 20px;
-    left: 16px;
-    padding-top: 20%;
-    font-size: 20px;
-  }
-
-  .col-md-3 img{
-    width:100%px;
-    margin: 20px;
-  }
-
-  #portfolio{
-    margin-left:8%;
-    margin-right: 16%; 
-  }
-
-  button{
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-  }
-
-  #email{
-    width: 84%;
-    margin-left: 4%;
-    padding-bottom: 10px;
-  }
-
-  #name{
-    width: 100%;
-    margin-left: 4%;
-    margin-bottom: 20px;
-  }
-
-  #content{
-    margin-left: 4%;
-    width: 84%;
-  }
-}
 @media only screen and (min-width: 825px){
   #work1,#work2,#work3,#work4,#work5,#work6,#work6,#work7,#work8{
     width: 100%;
@@ -246,7 +176,7 @@ button{
     width: 400px;
     margin: 20px;
   }
-  
+
   #portfolio{
     margin-left:10%;
     margin-right: 10%; 

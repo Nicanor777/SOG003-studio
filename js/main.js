@@ -1,29 +1,33 @@
-$(document).ready(function() {
-  $('#design-image').hover(function(){
-  $("#design-image").slideDown('1500').hide('1000');
-  // $('#design').slideToggle('slow');
-}, function(){
-  $("#design").slideUp('1500');
-  $('#design').slideToggle('slow');
+$(document).ready(function(){
+  $("#design-image").click(function(){
+    $("#design-image").slideDown('slow').hide('slow');
+    $("#design").show('slow');
+  });
+  $("#design").click(function(){
+    $("#design").slideUp('slow');
+    $("#design-image").slideDown('slow');
   });
 });
 
-$(document).ready(function() {
-  $('#development-image').hover(function(){
-  $("#development-image").slideDown('1500').hide('1000');
-}, function(){
-  $("#development").slideUp('1500');
-  $('#development').slideToggle('slow');
+$(document).ready(function(){
+  $("#development-image").click(function(){
+    $("#development-image").slideDown('slow').hide('slow');
+    $("#development").show('slow');
+  });
+  $("#development").click(function(){
+    $("#development").slideUp('slow');
+    $("#development-image").slideDown('slow');
   });
 });
 
-$(document).ready(function() {
-  $('#product-image').hover(function(){
-  $("#product-image").slideDown('1500').hide('1000');
-  $("#product").slideDown('1000');
-}, function(){
-  $("#product").slideUp('1500').hide('1000');
-  $("#product-image").slideUp('1500');
+$(document).ready(function(){
+  $("#product-image").click(function(){
+    $("#product-image").slideDown('slow').hide('slow');
+    $("#product").show('slow');
+  });
+  $("#product").click(function(){
+    $("#product").slideUp('slow');
+    $("#product-image").slideDown('slow');
   });
 });
 
@@ -91,7 +95,7 @@ $(document).ready(function(){
   }).mouseout(function(){
     $("#work7").hide();
   });
-  
+
   $("#project8").mouseover(function(){
     $("#work8").show();
   }).mouseout(function(){
