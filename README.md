@@ -30,7 +30,7 @@ For any support concerning source code and request to collaborate, contact me vi
 
 ## Github Pages
 
-The site is live at : https://nicanor777.github.io/akan-names/
+The site is live at : https://nicanor777.github.io/SOG003-studio/
 
 ### License
 
