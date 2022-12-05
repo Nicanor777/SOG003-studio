@@ -55,6 +55,24 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function(){
+  $("form#contact-form").submit(function(event){
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#content").val();
+    if ($("input#name").val() && $("input#email").val()){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+    
+  });
+
+});  
+
+
+
 
 
 
