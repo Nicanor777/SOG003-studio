@@ -1,0 +1,54 @@
+.home {
+  background-image: url('../assets/backgrounds/h_img.jpg');
+  background-position: center;
+  background-size: auto;
+  color: white;
+  text-align: center;
+  padding-top: 19%;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.services {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-size: auto;
+}
+
+.what-we-do {
+  text-align: center;
+  padding-top: 35px;
+}
+
+#portfolio {
+  align-items: center;
+}
+
+.portfolio h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact-us {
+  color: white;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
